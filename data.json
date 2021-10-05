@@ -1,0 +1,30 @@
+{
+    "data_pengiriman": {
+        "alamat": "jauh",
+        "catatan": "cepet",
+        "nama_lengkap": "man",
+        "no_telp": "08676667"
+    },
+    "data_produk": [
+        {
+            "gambar": "sayur-bayam-1t-1.png",
+            "harga": "9000",
+            "id": "2",
+            "nama": "Sayur Bayam",
+            "per": "Ikat",
+            "qty": "3"
+        },
+        {
+            "gambar": "Jasa-Foto-Produk-Makanan-Kafe-Dontea-Platter.jpg",
+            "harga": "10000",
+            "id": "1",
+            "nama": "Makanan khas",
+            "per": "Piring",
+            "qty": "1"
+        }
+    ],
+    "id_users": "1",
+    "metode_pembayaran": "COD",
+    "total_harga": "37000",
+    "waktu_pengiriman": "2021-06-23 20:00"
+}

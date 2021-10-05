@@ -1,0 +1,52 @@
+/* Dekstop */
+body{
+    background-color: #f1f5f9;
+}
+
+.sidebar-room{
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    width: 25%;
+    z-index: 1;
+    transition: all 1s;
+    -ms-transform: translate(-90%);
+    transform: translate(-90%);
+}
+
+.sidebar-room-content{
+    background-color: #7386D5;
+    padding: 1rem;
+    width: 90%;
+    box-shadow: 1px 0px 10px #7386D5;
+}
+
+.sidebar-room-toggle{
+    display: flex;
+    width: 10%;
+    align-items: center;
+}
+
+.sidebar-room-toggle-button{
+    margin-left: -20px;
+    width: 50px;
+	height: 50px;
+    background-color: #7386D5;
+    border-radius: 0px 100% 100% 0px;
+    cursor: pointer;
+    box-shadow: 1px 0px 10px #7386D5;
+}
+
+.image-post{
+    width: 60px;
+    height: 100%;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 768px) { 
+    .sidebar-room{
+        width: 70%;
+    }
+}
